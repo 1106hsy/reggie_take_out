@@ -12,6 +12,10 @@ spring:
     host: smtp.qq.com
     username: 2777833922@qq.com
     password: xmmqpjbeqzlndhfh
+  redis:
+    host: 192.168.182.128
+    port: 6379
+    database: 0
 
 mybatis-plus:
   configuration:
@@ -23,4 +27,5 @@ mybatis-plus:
 #上传的基本路径
 reggie:
   uploadPath: E:\upload\
+
 
