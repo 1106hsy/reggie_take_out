@@ -2,6 +2,7 @@ package com.anshi.common;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -10,7 +11,7 @@ import java.util.Map;
  * @Param <T>
  */
 @Data
-public class R<T> {
+public class R<T> implements Serializable {
     private Integer code;  //编码：1成功，0和其他数字为失败
 
     private String msg;  //错误信息
